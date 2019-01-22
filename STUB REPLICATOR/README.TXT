@@ -44,3 +44,7 @@ Using the Replicator:
   
   At the time i was noob on Rexx so it's funcionallity only made changes on pointed lines at 'Parametros Especificos'.
   Anyway it fitted for it's prupose.
+  
+  COMMENTS AND ERROR MESSAGES ARE WITTEN IN PORTUGUESE!
+  
+  
