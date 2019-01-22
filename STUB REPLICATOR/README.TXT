@@ -42,4 +42,5 @@ Using the Replicator:
   'DES.SIS.SRCLIB.CDFS01ST.PRD'   <--- (Batch Stub)
   
   
-  
+  At the time i was noob on Rexx so it's funcionallity only made changes on pointed lines at 'Parametros Especificos'.
+  Anyway it fitted for it's prupose.
