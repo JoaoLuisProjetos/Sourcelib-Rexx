@@ -239,34 +239,36 @@ Call EscreveFonte DSNST
 /*----------- TestaNomeSrot  -------------------------- */
  TestaNomeSrot:
        Resp = index(regR.x,SrotXX)
-       If Resp > 0 Then Do
-              FraseTam = length(regR.x)
-              Ponteiro1 = Resp - 1
-              PalavraTam = length(SrotXX)
-
-              Parte1 = left(regR.x,Ponteiro1)
-              TamP2  = FraseTam - (  Ponteiro1 + PalavraTam )
-              Parte2 = right(regR.x,TamP2)
-              regR.x = Parte1||Srot||Parte2
-              Say x||' - '||regR.x||'.'
-       End
+       If Resp > 0 Then 
+          Do
+                 FraseTam = length(regR.x)
+                 Ponteiro1 = Resp - 1
+                 PalavraTam = length(SrotXX)
+   
+                 Parte1 = left(regR.x,Ponteiro1)
+                 TamP2  = FraseTam - (  Ponteiro1 + PalavraTam )
+                 Parte2 = right(regR.x,TamP2)
+                 regR.x = Parte1||Srot||Parte2
+                 Say x||' - '||regR.x||'.'
+          End
  RETURN
 
 /*--------- TestaPrefixo  -------------------------- */
  TestaPrefixo:
 
        Resp  = index(regR.x,PrefixoXX)
-       If Resp > 0 Then Do
-          FraseTam    = length(regR.x)
-          Ponteiro1   = Resp - 1
-          PalavraTam  = length(PrefixoXX)
-
-          Parte1    = left(regR.x,ponteiro1)
-          TamP2     = FraseTam - (  Ponteiro1 + PalavraTam )
-          Parte2    = right(regR.x,TamP2)
-          regR.x    = Parte1||Prefixo||Parte2
-          Say x||' - '||regR.x
-       End
+       If Resp > 0 Then 
+          Do
+             FraseTam    = length(regR.x)
+             Ponteiro1   = Resp - 1
+             PalavraTam  = length(PrefixoXX)
+   
+             Parte1    = left(regR.x,ponteiro1)
+             TamP2     = FraseTam - (  Ponteiro1 + PalavraTam )
+             Parte2    = right(regR.x,TamP2)
+             regR.x    = Parte1||Prefixo||Parte2
+             Say x||' - '||regR.x
+          End
 
  RETURN
 
@@ -274,17 +276,18 @@ Call EscreveFonte DSNST
  TestaLibSubrotina:
 
        Resp  = index(regR.x,SLXX)
-       If Resp > 0 Then Do
-          FraseTam    = length(regR.x)
-          Ponteiro1   = Resp - 1
-          PalavraTam  = length(SLXX)
-
-          Parte1    = left(regR.x,ponteiro1)
-          TamP2     = FraseTam - (  Ponteiro1 + PalavraTam )
-          Parte2    = right(regR.x,TamP2)
-          regR.x    = Parte1||SL||Parte2
-          Say x||' - '||regR.x
-       End
+       If Resp > 0 Then 
+          Do
+             FraseTam    = length(regR.x)
+             Ponteiro1   = Resp - 1
+             PalavraTam  = length(SLXX)
+   
+             Parte1    = left(regR.x,ponteiro1)
+             TamP2     = FraseTam - (  Ponteiro1 + PalavraTam )
+             Parte2    = right(regR.x,TamP2)
+             regR.x    = Parte1||SL||Parte2
+             Say x||' - '||regR.x
+          End
 
  RETURN
 
@@ -292,17 +295,18 @@ Call EscreveFonte DSNST
  NmUnisysConfig:
 
        srchObjUni = index(regR.x,PCXX)
-       If srchObjUni > 0 Then Do
-          FraseTam = length(regR.x)
-          Ponteiro1 = srchObjUni - 1
-          PalavraTam = length(PCXX)
-
-          Parte1 = left(regR.x,ponteiro1)
-          TamP2 = FraseTam - (  Ponteiro1 + PalavraTam )
-          Parte2 = right(regR.x,TamP2)
-          regR.x = Parte1||PC||Parte2
-          Say x||' - '||regR.x
-       End
+       If srchObjUni > 0 Then 
+          Do
+             FraseTam = length(regR.x)
+             Ponteiro1 = srchObjUni - 1
+             PalavraTam = length(PCXX)
+   
+             Parte1 = left(regR.x,ponteiro1)
+             TamP2 = FraseTam - (  Ponteiro1 + PalavraTam )
+             Parte2 = right(regR.x,TamP2)
+             regR.x = Parte1||PC||Parte2
+             Say x||' - '||regR.x
+          End
 
  RETURN
 
@@ -317,18 +321,20 @@ Call EscreveFonte DSNST
 /* --------- PortConfig ------------------------------------ */
  PortConfig:
 
-    If Amb \= 'DES' then Do
-       Resp = index(regR.x,PortXX)
-       If Resp > 0 Then Do
-          FraseTam = length(regR.x)
-          Ponteiro1 = Resp - 1
-          PalavraTam = length(PortXX)
-
-          Parte1 = left(regR.x,ponteiro1)
-          TamP2 = FraseTam - (  Ponteiro1 + PalavraTam )
-          Parte2 = right(regR.x,TamP2)
-          regR.x = Parte1||ServPort||Parte2
-       End
+    If Amb \= 'DES' then 
+       Do
+          Resp = index(regR.x,PortXX)
+          If Resp > 0 Then 
+             Do
+                FraseTam = length(regR.x)
+                Ponteiro1 = Resp - 1
+                PalavraTam = length(PortXX)
+      
+                Parte1 = left(regR.x,ponteiro1)
+                TamP2 = FraseTam - (  Ponteiro1 + PalavraTam )
+                Parte2 = right(regR.x,TamP2)
+                regR.x = Parte1||ServPort||Parte2
+             End
     End
 
     Say x||' - Server Port: '||ServPort
@@ -339,17 +345,18 @@ Call EscreveFonte DSNST
 UserConfig:
 
       Resp = index(regR.x,UserXX)
-      If Resp > 0 Then Do
-         FraseTam = length(regR.x)
-         Ponteiro1 = Resp - 1
-         PalavraTam = length(UserXX)
-
-         Parte1 = left(regR.x,ponteiro1)
-         TamP2 = FraseTam - (  Ponteiro1 + PalavraTam )
-         Parte2 = right(regR.x,TamP2)
-         regR.x = Parte1||User||Parte2
-         Say x||' - '||regR.x
-      End
+      If Resp > 0 Then 
+         Do
+            FraseTam = length(regR.x)
+            Ponteiro1 = Resp - 1
+            PalavraTam = length(UserXX)
+   
+            Parte1 = left(regR.x,ponteiro1)
+            TamP2 = FraseTam - (  Ponteiro1 + PalavraTam )
+            Parte2 = right(regR.x,TamP2)
+            regR.x = Parte1||User||Parte2
+            Say x||' - '||regR.x
+         End
 RETURN
 
 /*--- TESTA EXISTENCIA DO MEMBRO A SER COPIADO ------------*/
@@ -379,10 +386,11 @@ arg DsnFonte
 Say ' '
 "ALLOCATE DA("DsnFonte") FI(COPIA) SHR REUSE"
 If RC == 0 then "EXECIO * DISKR COPIA (STEM RegR. FINIS"
-   IF  RC >  0 then Do
-     Say 'ARQUIVO NAO ALOCADO! (ERRO) :' DsnFonte
-     Exit(12)
-   End
+   IF  RC >  0 then 
+     Do
+       Say 'ARQUIVO NAO ALOCADO! (ERRO) :' DsnFonte
+       Exit(12)
+     End
 
 RETURN
 
@@ -392,14 +400,16 @@ arg NovoArq
 
 Say ' '
 RC = ALLOCNEW(NovoArq,'NOVOARQ',10,50,'TRACKS','PS','F B','080')
-   If RC \=0 then do
-      say ' ERRO AO ALOCAR ARQUIVO DSN : '||NovoArq
-      EXIT(12)
-   End
-   If RC == 0 then do
-      Say '- CRIADO ARQUIVO DSN: '||NovoArq
-      "FREE FI(NOVOARQ)"
-   End
+   If RC \=0 then 
+      do
+         say ' ERRO AO ALOCAR ARQUIVO DSN : '||NovoArq
+         EXIT(12)
+      End
+   If RC == 0 then
+      do
+         Say '- CRIADO ARQUIVO DSN: '||NovoArq
+         "FREE FI(NOVOARQ)"
+      End
 
 RETURN
 
@@ -410,10 +420,11 @@ arg DsnFonte
 Say ' '
 "ALLOCATE DA("DsnFonte") FILE(COPIAW) SHR REUSE"
 IF RC == 0 THEN "EXECIO * DISKW COPIAW (STEM REGR. FINIS"
- IF  RC >  0 THEN DO
-    SAY 'ARQUIVO NAO ALOCADO! (ERRO) : ' DsnFonte
-    EXIT(12)
- END
+ IF  RC >  0 THEN 
+   DO
+      SAY 'ARQUIVO NAO ALOCADO! (ERRO) : ' DsnFonte
+      EXIT(12)
+   END
 
 RETURN
 /* =====================    F I M    ========================= */
