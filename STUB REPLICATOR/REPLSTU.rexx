@@ -68,8 +68,8 @@ Select
         Do
           IP       =  "'10.1.0.010.'."
           say '*==================================================*'
-          say '!!!!!! N„o foi informado nos parametros Entrada!!!!!'
-          say '!!!!!!   … necess·rio alterar no cod.Fonte     !!!!!'
+          say '!!!!!! N√£o foi informado nos parametros Entrada!!!!!'
+          say '!!!!!!   √â necess√°rio alterar no cod.Fonte     !!!!!'
           say '!!!!!!          (MANUALMENTE)                  !!!!!'
           say '*==================================================*'
         End
