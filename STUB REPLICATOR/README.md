@@ -20,7 +20,7 @@ The JCL(REPLSTUB) needs to parse this sequence of 3 parameters:</br>
    Where:</br>
      XXX --> System's name abbreviattion</br>
      999 --> Number of usercode</br>
-     E   --> Target Environment</br>
+     E   --> Target Environment. (D,H,P)</br>
 </br>
 3. Target environment. </br>
    Example: </br>
