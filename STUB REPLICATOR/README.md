@@ -28,7 +28,7 @@ The JCL(REPLSTUB) needs to parse this sequence of 3 parameters:
      E   --> Target Environment</br>
 <br>
 3. Target environment. </br>
-   Ex: </br>
+   Example: </br>
      DES --> Development Environment</br>
      HML --> Homologation Environment</br>
      PRD --> Production Environment</br>
@@ -36,8 +36,8 @@ The JCL(REPLSTUB) needs to parse this sequence of 3 parameters:
       
 <h1>Using the Replicator:</h1>
 1. Fill the parameters after the Rexx Call '%REPLSTU' with the parameters shown as above in the JCL(REPLSTUB) file:</br>
-   EX:</br>
-                                           %REPLSTU  CDFS01 CDF001P PRD
+   EXample:</br>
+<center><h1>%REPLSTU  CDFS01 CDF001P PRD</h1></center>
 </br>  
 2. Submit the REPLSTUB JCL</br>
 </br>
