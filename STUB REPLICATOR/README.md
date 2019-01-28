@@ -40,12 +40,12 @@ Parameters Example:</br>
    'DES.SIS.STUB.CDFS01SC.PRD'   <--- (Online Stub)</br>
    'DES.SIS.STUB.CDFS01ST.PRD'   <--- (Batch Stub)</br>
 </br>
-  PS1: It will be generated in Development environment, to be used on production environment.</br>
+  PS: It will be generated in Development environment, to be used on production environment.</br>
 </br>
-</br>
-  PS2: At the time i was noob on Rexx so it's funcionallity only made changes on pointed lines at 'Parametros Especificos'.
+<h1>Another Comments</h1>
+  PS1: At the time i was noob on Rexx so it's funcionallity only made changes on pointed lines at 'Parametros Especificos'.
   Anyway it fitted for it's prupose.</br>
 </br>
-  PS3: COMMENTS AND ERROR MESSAGES ARE WITTEN IN PORTUGUESE!</br>
+  PS2: COMMENTS AND ERROR MESSAGES ARE WITTEN IN PORTUGUESE!</br>
   </br></br></br>
   
