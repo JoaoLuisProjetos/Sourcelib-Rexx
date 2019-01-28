@@ -39,7 +39,7 @@ The JCL(REPLSTUB) needs to parse this sequence of 3 parameters:
 Parameters Example:</br>
 <br>
 __%REPLSTU  CDFS01 CDF001P PRD__
-</br>
+<br>
 </br>  
 2. Submit the REPLSTUB JCL</br>
 </br>
