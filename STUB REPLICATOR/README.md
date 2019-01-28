@@ -11,11 +11,11 @@ It was crafted to save time building new Stubs and decreasing human errors, sinc
 <h1>How to use?</h1>
 The JCL(REPLSTUB) needs to parse this sequence of 3 parameters:
 1. Subroutine name to be STUB:
-     XXXS99
-     Where:
-     XXX --> System's name abbreviattion
-     S   --> Means to be a subroutine in that Schemma
-     99  --> Program Number
+    * XXXS99
+    * Where:
+    * XXX --> System's name abbreviattion
+    * S   --> Means to be a subroutine in that Schemma
+    * 99  --> Program Number
       
 2. UserCode.
     This is specified on the environment configuration. Therefore it's environment custom made. 
