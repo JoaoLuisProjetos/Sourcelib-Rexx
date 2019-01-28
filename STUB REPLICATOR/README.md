@@ -36,8 +36,10 @@ The JCL(REPLSTUB) needs to parse this sequence of 3 parameters:
       
 <h1>Using the Replicator:</h1>
 1. Fill the parameters after the Rexx Call '%REPLSTU' with the parameters shown as above in the JCL(REPLSTUB) file:</br>
-   Example:</br>
+Parameters Example:</br>
+<br>
 <center>%REPLSTU  CDFS01 CDF001P PRD</center>
+<br>
 </br>  
 2. Submit the REPLSTUB JCL</br>
 </br>
