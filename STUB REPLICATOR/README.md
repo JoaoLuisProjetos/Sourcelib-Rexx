@@ -1,6 +1,6 @@
 
 
-                                                  Why it was built? <h1> tag
+<h1>Why it was built?</h1>
                                                       
 This little project was made to Replicate Stub Subroutines to create communication between UNISYS environment and UNIX environment via 
 TCP/IP, USER access and other sockets as well.
@@ -8,7 +8,7 @@ TCP/IP, USER access and other sockets as well.
 It was crafted to save time building new Stubs and decreasing human errors, since the inputs will be submitted in a JCL file.
                                           
                                           
-                                                   <h1>How to use?</h1>
+<h1>How to use?</h1>
 The JCL(REPLSTUB) needs to parse this sequence of 3 parameters:
 1. Subroutine name to be STUB:
      XXXS99
@@ -33,7 +33,7 @@ The JCL(REPLSTUB) needs to parse this sequence of 3 parameters:
       PRD --> Production Environment
       
       
-                                        <h1>Using the Replicator:</h1>
+<h1>Using the Replicator:</h1>
 1. Fill the parameters after the Rexx Call '%REPLSTU' with the parameters shown as above in the JCL(REPLSTUB) file:
   EX:
   %REPLSTU  CDFS01 CDF001P PRD
