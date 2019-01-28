@@ -1,7 +1,7 @@
 
 
 <h1>Why it was built?</h1></br>
-Built for <b>Mainframe</b></br>
+Built for <b>Mainframe</b>.</br>
 This little project was made to Replicate Stub Subroutines to create communication between UNISYS environment and UNIX environment via 
 TCP/IP, USER access and other sockets as well.</br></br>
 It was crafted to save time building new Stubs and decreasing human errors, since the inputs will be submitted in a JCL file.</br></br>
