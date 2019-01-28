@@ -10,6 +10,7 @@ It was crafted to save time building new Stubs and decreasing human errors, sinc
                                           
 <h1>How to use?</h1>
 The JCL(REPLSTUB) needs to parse this sequence of 3 parameters:
+<br>
 1. Subroutine name to be STUB:
 *     XXXS99
 *     Where:
