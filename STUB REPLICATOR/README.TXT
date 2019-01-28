@@ -38,13 +38,15 @@ Using the Replicator:
   3. Check for this job RC, if it's equal 00 then the Replicator Worked correctly. 
   
   4. Both Datasets created would be:
-  'DES.SIS.SRCLIB.CDFS01SC.PRD'   <--- (Online Stub)
-  'DES.SIS.SRCLIB.CDFS01ST.PRD'   <--- (Batch Stub)
+  'DES.SIS.STUB.CDFS01SC.PRD'   <--- (Online Stub)
+  'DES.SIS.STUB.CDFS01ST.PRD'   <--- (Batch Stub)
+    
+  PS1: It will be generated in Development environment, to be used on production environment.
   
   
-  At the time i was noob on Rexx so it's funcionallity only made changes on pointed lines at 'Parametros Especificos'.
+  PS2: At the time i was noob on Rexx so it's funcionallity only made changes on pointed lines at 'Parametros Especificos'.
   Anyway it fitted for it's prupose.
   
-  COMMENTS AND ERROR MESSAGES ARE WITTEN IN PORTUGUESE!
+  PS3: COMMENTS AND ERROR MESSAGES ARE WITTEN IN PORTUGUESE!
   
   
