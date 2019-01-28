@@ -12,26 +12,26 @@ It was crafted to save time building new Stubs and decreasing human errors, sinc
 The JCL(REPLSTUB) needs to parse this sequence of 3 parameters:
 <br>
 1. Subroutine name to be STUB:</br>
-*     XXXS99</br>
-*     Where:</br>
-*     XXX --> System's name abbreviattion</br>
-*     S   --> Means to be a subroutine in that Schemma</br>
-*     99  --> Program Number</br>
+(XXXS99)</br>
+   Where:</br>
+   XXX --> System's name abbreviattion</br>
+   S   --> Means to be a subroutine in that Schemma</br>
+   99  --> Program Number</br>
 <br>
 2. UserCode:</br>
-*   This is specified on the environment configuration. Therefore it's environment custom made. </br>
-*   So let's just use the following:</br>
-*     XXX999E</br>
-*     Where:</br>
-*       XXX --> System's name abbreviattion</br>
-*       999 --> Number of usercode</br>
-*       E   --> Target Environment</br>
+   This is specified on the environment configuration. Therefore it's environment custom made. </br>
+   So let's just use the following:</br>
+(XXX999E)</br>
+   Where:</br>
+     XXX --> System's name abbreviattion</br>
+     999 --> Number of usercode</br>
+     E   --> Target Environment</br>
 <br>
 3. Target environment. </br>
-*   Ex: </br>
-*     DES --> Development Environment</br>
-*     HML --> Homologation Environment</br>
-*     PRD --> Production Environment</br>
+   Ex: </br>
+     DES --> Development Environment</br>
+     HML --> Homologation Environment</br>
+     PRD --> Production Environment</br>
       
       
 <h1>Using the Replicator:</h1>
@@ -44,8 +44,8 @@ The JCL(REPLSTUB) needs to parse this sequence of 3 parameters:
 3. Check for this job RC, if it's equal 00 then the Replicator Worked correctly. </br>
 </br>
 4. Both Datasets created would be:</br>
-* 'DES.SIS.STUB.CDFS01SC.PRD'   <--- (Online Stub)</br>
-* 'DES.SIS.STUB.CDFS01ST.PRD'   <--- (Batch Stub)</br>
+   'DES.SIS.STUB.CDFS01SC.PRD'   <--- (Online Stub)</br>
+   'DES.SIS.STUB.CDFS01ST.PRD'   <--- (Batch Stub)</br>
 </br>
   PS1: It will be generated in Development environment, to be used on production environment.</br>
 </br>
