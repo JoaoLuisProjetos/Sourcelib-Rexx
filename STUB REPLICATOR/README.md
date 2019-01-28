@@ -16,7 +16,7 @@ The JCL(REPLSTUB) needs to parse this sequence of 3 parameters:
 *     XXX --> System's name abbreviattion
 *     S   --> Means to be a subroutine in that Schemma
 *     99  --> Program Number
-      
+<br>
 2. UserCode.
 *   This is specified on the environment configuration. Therefore it's environment custom made. 
 *   So let's just use the following:
@@ -25,7 +25,7 @@ The JCL(REPLSTUB) needs to parse this sequence of 3 parameters:
 *       XXX --> System's name abbreviattion
 *       999 --> Number of usercode
 *       E   --> Target Environment
-        
+<br>
 3. Target environment. 
 *   Ex: 
 *     DES --> Development Environment
