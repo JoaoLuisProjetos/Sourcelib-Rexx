@@ -18,41 +18,41 @@ The JCL(REPLSTUB) needs to parse this sequence of 3 parameters:
 *     S   --> Means to be a subroutine in that Schemma</br>
 *     99  --> Program Number</br>
 <br>
-2. UserCode.
-*   This is specified on the environment configuration. Therefore it's environment custom made. 
-*   So let's just use the following:
-*     XXX999E
-*     Where:
-*       XXX --> System's name abbreviattion
-*       999 --> Number of usercode
-*       E   --> Target Environment
+2. UserCode:</br>
+*   This is specified on the environment configuration. Therefore it's environment custom made. </br>
+*   So let's just use the following:</br>
+*     XXX999E</br>
+*     Where:</br>
+*       XXX --> System's name abbreviattion</br>
+*       999 --> Number of usercode</br>
+*       E   --> Target Environment</br>
 <br>
-3. Target environment. 
-*   Ex: 
-*     DES --> Development Environment
-*     HML --> Homologation Environment
-*     PRD --> Production Environment
+3. Target environment. </br>
+*   Ex: </br>
+*     DES --> Development Environment</br>
+*     HML --> Homologation Environment</br>
+*     PRD --> Production Environment</br>
       
       
 <h1>Using the Replicator:</h1>
-1. Fill the parameters after the Rexx Call '%REPLSTU' with the parameters shown as above in the JCL(REPLSTUB) file:
-* EX:
-* %REPLSTU  CDFS01 CDF001P PRD
-  
-2. Submit the REPLSTUB JCL
-  
-3. Check for this job RC, if it's equal 00 then the Replicator Worked correctly. 
-  
-4. Both Datasets created would be:
-* 'DES.SIS.STUB.CDFS01SC.PRD'   <--- (Online Stub)
-* 'DES.SIS.STUB.CDFS01ST.PRD'   <--- (Batch Stub)
-    
-  PS1: It will be generated in Development environment, to be used on production environment.
-  
-  
+1. Fill the parameters after the Rexx Call '%REPLSTU' with the parameters shown as above in the JCL(REPLSTUB) file:</br>
+   EX:</br>
+* %REPLSTU  CDFS01 CDF001P PRD</br>
+</br>  
+2. Submit the REPLSTUB JCL</br>
+</br>
+3. Check for this job RC, if it's equal 00 then the Replicator Worked correctly. </br>
+</br>
+4. Both Datasets created would be:</br>
+* 'DES.SIS.STUB.CDFS01SC.PRD'   <--- (Online Stub)</br>
+* 'DES.SIS.STUB.CDFS01ST.PRD'   <--- (Batch Stub)</br>
+</br>
+  PS1: It will be generated in Development environment, to be used on production environment.</br>
+</br>
+</br>
   PS2: At the time i was noob on Rexx so it's funcionallity only made changes on pointed lines at 'Parametros Especificos'.
-  Anyway it fitted for it's prupose.
-  
-  PS3: COMMENTS AND ERROR MESSAGES ARE WITTEN IN PORTUGUESE!
-  
+  Anyway it fitted for it's prupose.</br>
+</br>
+  PS3: COMMENTS AND ERROR MESSAGES ARE WITTEN IN PORTUGUESE!</br>
+  </br></br></br>
   
