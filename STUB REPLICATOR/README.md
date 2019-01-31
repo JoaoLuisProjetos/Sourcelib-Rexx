@@ -47,6 +47,6 @@ Parameters Example:</br>
   PS1: At the time i was noob on Rexx so it's funcionallity only made changes on pointed lines at 'Parametros Especificos'.
   Anyway it fitted for it's prupose.</br>
 </br>
-  PS2: COMMENTS AND ERROR MESSAGES ARE WITTEN IN PORTUGUESE!</br>
+  PS2: COMMENTS AND ERROR MESSAGES ARE WRITTEN IN PORTUGUESE!</br>
   </br></br></br>
   
