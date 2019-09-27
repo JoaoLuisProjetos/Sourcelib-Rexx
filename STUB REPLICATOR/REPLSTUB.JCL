@@ -11,10 +11,10 @@
 //*********************************************************************
 //* Replicador Stub (ONLINE, BATCH)                                   *
 //*********************************************************************
-//* Parametros de entrada:                                            *
-//* - Subrotina                         (XXXS99)                      *
+//* Input Parms:                                                      *
+//* - Subroutine                        (XXXS99)                      *
 //* - Usercode                          (XXX999A)                     *
-//* - Ambiente a qual se destina a stub (DES,HML,PRD)                 *
+//* - Destiny Envinronment              (DES,HML,PRD)                 *
 //*********************************************************************
 //*
 //SYSTSIN     DD  *
