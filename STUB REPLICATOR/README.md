@@ -5,7 +5,7 @@ Built for <b>Mainframe</b>.</br>
 This little project was made to Replicate Stub Subroutines. </br>
 This Stubs stablish connection between UNISYS environment and UNIX environment via 
 TCP/IP, thru USER access and other sockets as well.</br></br>
-It was crafted to save time building new Stubs and decreasing human errors, since the inputs will be submitted via JCL file.</br></br>
+It was crafted to save time by code replication of new Stubs, decreasing human errors, since the inputs will be submitted via JCL file.</br></br>
 <h1>How to use?</h1>
 The JCL(REPLSTUB) needs to parse this sequence of 3 parameters:</br>
 1. Subroutine name to be STUB:</br>
